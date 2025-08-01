@@ -1,0 +1,67 @@
+* {
+  font-family: Helvetica;
+}
+
+body {
+
+}
+
+ul {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+li {
+  display: block;
+  align-items: center;
+  float: left;
+  color: white;
+  text-align: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
+  text-decoration: none;
+}
+
+
+/* can't figure out why the hyperlinks for the menu are hidden if the
+below stylings aren't present 
+li a {
+  display: block;
+  color: white;
+  width: 100%;
+  height: 100%;
+  padding: 100%;
+}
+  */
+
+li:hover {
+  background-color: #111111;
+}
+
+#right_hand_element {
+    background-color: #000000;
+    position: fixed;
+    float: right;
+    right: 0;
+    top: 0;
+    width: 300px;
+    height: 200%;
+    transform: scale(1.1);
+}
+
+
+#right_hand_image {
+    opacity: 0.8;
+    position: fixed;
+    padding: 10px;
+    right: 0;
+    top: 15%;
+    width: 275px;
+    height: 275px;
+    vertical-align: center;
+}
