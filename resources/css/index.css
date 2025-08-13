@@ -3,6 +3,38 @@
 }
 
 body {
+    background-color: rgb(15, 13, 35);
+
+}
+
+
+.banner {
+    color:forestgreen;
+    background-color: black;
+    height: 15%;
+    width: 55%;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    padding-top: 35px;
+    vertical-align: middle;
+    left: 0px;
+    position: relative;
+}
+
+.navigation {
+    width: 75%;
+    z-index: 0;
+    margin-top: 10px;
+    left: 10%;
+    position: relative;
+    
+}
+
+.intro {
+    color: #727272d0;
+    padding-top: 5px;
+    margin-left: 10%;
 
 }
 
@@ -49,7 +81,7 @@ li:hover {
     float: right;
     right: 0;
     top: 0;
-    width: 300px;
+    width: 325px;
     height: 200%;
     transform: scale(1.1);
 }
@@ -58,7 +90,7 @@ li:hover {
 #right_hand_image {
     opacity: 0.8;
     position: fixed;
-    padding: 10px;
+    padding: 10%;
     right: 0;
     top: 15%;
     width: 275px;
