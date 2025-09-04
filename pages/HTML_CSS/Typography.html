@@ -1,0 +1,125 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Reference - Typography</title>
+  <link href="./Typography_styles.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+  <!--Banner-->
+  <div class='banner'>
+    <h1>CSS Typography</h1>
+  </div>
+  <!--Description-->
+  <div>
+    <h4>This is a reference for CSS typography that might be useful. I'm developing this while I learn HTML/CSS.  Therefore, this is not exhaustive and only things I use or think might be helpful.</h4>
+  </div>
+
+  <div class="explanation">
+    <h3>font-family property</h3>
+    <p class="descriptions">The CSS font-family property declares what type of font a rule will use.  Multiple fonts can be comma sepparated to designate fallback fonts, in the event the first-due option is unavailble on the computer viewing the webpage.  Be sure to use HTML and CSS safe fonts unless serving up a specific font using font-face (described below).  Web safe fonts include:</p>
+    <ul>
+      <li>Arial (sans-serif)</li>
+      <li>Verdana (sans-serif)</li>
+      <li>Tahoma (sans-serif)</li>
+      <li>Trebuchet MS (sans-serif)</li>
+      <li>Times New Roman (serif)</li>
+      <li>Georgia (serif)</li>
+      <li>Garamond (serif)</li>
+      <li>Courier New (monospace)</li>
+      <li>Brush Script MT (cursive)</li>
+    </ul>
+    <div class="examples">
+      <p><strong>Examples</strong> </p> 
+      <p>selector {</p>
+      <p>font-family: Arial; </p>
+      <p>}</p>
+      <p></br></p> 
+      <p>selector {</p>
+      <p>font-family: Georgia, Arial, serif; </p>
+      <p>}</p>
+    </div>
+  </div>
+
+  <div class="explanation">
+    <h3>font-style property</h3>
+    <p>This is primarily used to set <em>italic</em> and oblique typolography.  What's the difference? Italic is technically a different font entirely that is slanted and more caligraphic; oblique is just slanted version of the same font.</p>
+    <div class="examples">
+      <p><strong>Examples</strong> </p>
+      <p>selector {</p>
+      <p>font-family: Arial;</p>
+      <p>font-style: italic; </p>
+      <p>}</p>
+      <p></br></p> 
+      <p>selector {</p>
+      <p>font-family: Arial;</p>
+      <p>font-style: oblique; </p>
+      <p>}</p>
+    </div>
+  </div>
+
+  <div class="explanation">
+    <h3>font-weight property</h3>
+    <p>Control the thickness or thinness or the text. Default value is normal (400) with the varients thinner, thin, bold (700), and bolder available.  Alternatively, numerical values of 100 - 900 can be used.</p>
+    <div class="examples">
+      <p><strong>Examples</strong> </p> 
+      <p>selector {</p>
+      <p>font-family: Arial;</p>
+      <p>font-weight: thin;</p>
+      <p>}</p>
+      <p></br></p> 
+      <p>selector {</p>
+      <p>font-family: Arial;</p>
+      <p>font-weight: 700; </p>
+      <p>}</p>
+    </div>
+  </div>
+
+  <div class="explanation">
+    <h3>line-height, letter-spacing, and word-spacing properties</h3>
+    <p>The line-height property sets what typing apllications refer to as spacing (distance from one line of text to another), while th other two properties are self explanatory. Unitless numbers and any valid CSS units (pixels, percents, ems, rems, etc) are accepted for these properties.  </p>
+    <div class="examples">
+      <p><strong>Examples</strong> </p> 
+      <p>selector {</p> 
+      <p> font-family: Arial;</p> 
+      <p>line-height: 7;</p> 
+      <p>}</p> 
+      <p></br></p> 
+      <p>selector {</p> 
+      <p>font-family: Arial;</p> 
+      <p>word-spacing: 4px; </p> 
+      <p>}</p>
+    </div>
+  </div>
+
+  <div class="explanation">
+    <h3>@font-face rule</h3>
+    <p>Directly imports external fonts to a stylesheet.This rule should be declared at the <em>top</em> of the stylesheet. The declared font-family value can then be referenced downstream.</p>
+    <div class="examples">
+      <p><strong>Examples</strong> </p> 
+      <p>@font-face{</p> 
+      <p>font-family: 'Comic sans';</p> 
+      <p>src: url('../fonts/Comic_sans.ttf') format</p> 
+      <p>('truetype');</p> 
+      <p>}</p> 
+    </div>
+  </div>
+
+  <div class="explanation">
+    <h3>HTML web font linking</h3>
+    <p>Alternatively from @font-face, the HTML file can reference web fonts if declared in the header. This is useful when using a service like <a href="https://fonts.google.com/">Google Fonts</a>.</p>
+    <div class="examples">
+      <p><strong>Example</strong> </p> 
+      <p>&lt;head&gt;</p>
+      <p>&lt;link href="https://fonts.googleapis.com/css?family=Droid%20Serif" rel="stylesheet"&gt;</p>
+      <p>&lt;/head&gt;</p>
+    </div>
+  </div>
+
+</body>
+
+<footer>
+</footer>
+
+</html>
