@@ -2,12 +2,87 @@
 <html>
 
 <head>
-  <link href="./resources/css/index.css" type="text/css" rel="stylesheet">
-  <title>Some stuff I work on</title>
+  <link href="./resources/css/styles.css" type="text/css" rel="stylesheet">
+  <link href="./resources/css/work.css" type="text/css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <title>Zack's Website</title>
 </head>
 
 <body>
-    <p>This is the work page</p>
+  <!-- Navigation -->
+  <div class="main">
+    <div>
+      <ul class="navigation">
+        <li class="navigation_item"><a href="./index.html"><b>Home</b></a></li>
+        <li class="navigation_item"><a href="./about.html"><b>About</b></a></li>
+        <li class="navigation_item"><a href="./work.html"><b>Work</b></a></li>
+        <li class="navigation_item"><a href="./interests.html"><b>Interests</b></a>
+          <ul class="dropdown">
+            <li><a href="./interests/books.html">Books</a></li>
+            <li><a href="./interests/food.html">Food</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+ <!-- Row of buttons to GitHub work portfolio -->
+    <div class="button-header">
+      <h2>pick your tool</h2>
+    </div>
+    <div class="portfolio-button-row">
+      <div class="button-container">
+        <button class="portfolio-button">
+          <img src="./resources/pictures/pwsh_logo.jpg" alt="PowerShell Logo">
+        </button>
+        <span class="portfolio-label">Powershell</span>
+      </div>
+      <div class="button-container">
+        <button class="portfolio-button">
+          <img src="./resources/pictures/py_logo.jpg" alt="Python Logo">
+        </button>
+        <span class="portfolio-label">Python</span>
+      </div>      
+      <div class="button-container">
+        <button class="portfolio-button">
+          <img src="./resources/pictures/html_css_logo.jpg" alt="HTML and CSS Logo">
+        </button>
+        <span class="portfolio-label">HTML/CSS</span>
+      </div>      
+      <div class="button-container">
+        <button class="portfolio-button">
+          <img src="./resources/pictures/pa_logo.jpg">
+        </button>
+        <span class="portfolio-label">Power Automate</span>
+      </div>
+    </div>
+
+    <!--Row of buttons for Socials-->
+    <div class="button-header">
+      <h2>socials</h2>
+    </div>
+    <div class="social-button-row">
+      <div class="button-container">
+        <button class="social-button" id="linkedin_background">
+          <a href="https://www.linkedin.com/in/zack-o-connor/" target="_blank"><img src="./resources/pictures/linkedin_logo.jpg" alt="LinkedIn Link"></a>
+        </button>
+      </div>
+      <div class="button-container">
+        <button class="social-button">
+          <a href="https://github.com/ZWOIT" target="_blank"><img src="./resources/pictures/github-mark.png" alt="GitHub Logo"></a>
+        </button>
+      </div>     
+    </div>
+
+  </div>
+  <!-- Any content below this will always be at bottom. -->
+
+  <!-- Footer -->
+  <div class="footer">
+    <h2>&#9423; is for Zack.  Bet you thought this was a copyright. A footer feels right.  Might put something important here later.</h2>
+  </div>
+
   
 </body>
 

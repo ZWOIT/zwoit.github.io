@@ -1,0 +1,138 @@
+.button-header {
+    padding-top: 100px; 
+
+    margin: 25px;
+    top: 200px;
+    text-align: center;
+}
+
+.portfolio-button-row {
+  display: flex;
+  gap: 24px; /* Space between buttons */
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 40px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.portfolio-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 18px;
+  background-color: #f0f0f0;
+  border: 2px solid #ccc;
+  border-radius: 12px;
+  cursor: pointer;
+  width: 15vh;
+  height: auto;
+  aspect-ratio: 2/1;
+  min-width: 90px;
+  max-width: 160px;
+  box-sizing: border-box;
+  background: linear-gradient(145deg, #e0e0e0 0%, #f8f8f8 100%);
+  border: 3px solid #d1cfcf;
+  border-radius: 18px;
+  box-shadow: 4px 6px 20px 2px #b8b8b8,
+              inset 1px 2px 8px 0px #ffffff,
+              inset -2px -2px 8px 0px #d1d1d1;
+  transition: background 0.2s, box-shadow 0.2s, border-color 0.2s;
+}
+
+.portfolio-button:active {
+  background: linear-gradient(145deg, #d1d1d1 0%, #ededed 100%);
+  box-shadow: 1px 2px 8px 0px #b8b8b8,
+              inset 2px 2px 16px 0px #d1d1d1;
+  border-color: #b8b8b8;
+}
+
+.portfolio-button:hover {
+  background-color: #e0e7ff;
+  border-color: #5a67d8;
+}
+
+.portfolio-button img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  margin-bottom: 8px;
+}
+
+.portfolio-button:hover img {
+  transform: scale(1.2); /* Grow the image on hover */
+}
+
+.portfolio-button span {
+  font-size: 16px;
+  color: #333;
+  margin-top: 2px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.portfolio-label {
+  font-size: 16px;
+  color: #333;
+  margin-top: 8px;
+  text-align: center;
+  font-weight: 500;
+}
+
+/*social button grouping*/
+.social-button-row {
+  display: flex;
+  gap: 48px; /* Space between buttons */
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 40px;
+}
+
+.social-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 18px;
+  background-color: #f0f0f0;
+  border: 2px solid #ccc;
+  border-radius: 100%;
+  cursor: pointer;
+  width: 15vh;
+  height: auto;
+  aspect-ratio: 1/1;
+  min-width: 90px;
+  max-width: 160px;
+  box-sizing: border-box;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.social-button:hover {
+  border-color: #000;
+}
+
+#linkedin_background {
+    background-color: #2967B0;
+}
+
+
+.social-button img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  margin-bottom: 8px;
+}
+
+
+
+/*
+img {
+    max-width: 100%;
+    height: auto;
+}
+    */
