@@ -36,7 +36,7 @@
   min-width: 90px;
   max-width: 160px;
   box-sizing: border-box;
-  background: linear-gradient(145deg, #e0e0e0 0%, #f8f8f8 100%);
+  background: linear-gradient(145deg, #ffffff 0%, #f8f8f8 100%);
   border: 3px solid #d1cfcf;
   border-radius: 18px;
   box-shadow: 4px 6px 20px 2px #b8b8b8,
@@ -68,17 +68,10 @@
   transform: scale(1.2); /* Grow the image on hover */
 }
 
-.portfolio-button span {
-  font-size: 16px;
-  color: #333;
-  margin-top: 2px;
-  text-align: center;
-  font-weight: 500;
-}
 
 .portfolio-label {
   font-size: 16px;
-  color: #333;
+  color: #cfcfcf;
   margin-top: 8px;
   text-align: center;
   font-weight: 500;

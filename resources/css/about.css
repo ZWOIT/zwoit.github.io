@@ -1,0 +1,18 @@
+.content {
+    top: 100px;
+}
+
+.gallery {
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo {
+    display: inline-flex;
+    object-fit: contain;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 15px;
+}
